@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: 'quickDictionary' '2.1'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2025-10-04 13:41+0300\n"
-"PO-Revision-Date: 2025-10-04 13:46+0300\n"
+"PO-Revision-Date: 2025-10-04 14:02+0300\n"
 "Last-Translator: Oleksandr Gryshchenko <grisov.nvaccess@mailnull.com>\n"
 "Language-Team: Danil Kostenkov <danilkostenkov38@gmail.com>\n"
 "Language: ru_RU\n"
@@ -41,7 +41,7 @@ msgstr "выбор онлайн-сервиса"
 #: addon/globalPlugins/quickDictionary/__init__.py:91
 #: addon/globalPlugins/quickDictionary/__init__.py:553
 msgid "Voice synthesizers profiles"
-msgstr "Профили голосовых синтезаторов"
+msgstr "Профили синтезаторов речи"
 
 #: addon/globalPlugins/quickDictionary/__init__.py:94
 msgid "&Options..."
@@ -179,7 +179,7 @@ msgstr "В режиме управления дополнением:"
 
 #: addon/globalPlugins/quickDictionary/__init__.py:469
 msgid "Voice synthesizers profiles management:"
-msgstr "Управление профилями голосовых синтезаторов:"
+msgstr "Управление профилями синтезаторов речи:"
 
 #: addon/globalPlugins/quickDictionary/__init__.py:486
 msgid ""
@@ -197,7 +197,7 @@ msgstr "открывает диалоговое окно настроек доп
 #, python-brace-format
 msgid ""
 "From {startslot} to {endslot} - selection of the voice synthesizer profile"
-msgstr "От {startslot} до {endslot} - выбор профиля голосового синтезатора"
+msgstr "От {startslot} до {endslot} - выбор профиля синтезатора речи"
 
 #: addon/globalPlugins/quickDictionary/__init__.py:524
 #, python-brace-format
@@ -206,16 +206,16 @@ msgstr "Выбран профиль {slot}: {title}"
 
 #: addon/globalPlugins/quickDictionary/__init__.py:527
 msgid "announce the selected profile of voice synthesizers"
-msgstr "объявить выбранный профиль речевого синтезатора"
+msgstr "объявить выбранный профиль синтезатора речи"
 
 #: addon/globalPlugins/quickDictionary/__init__.py:536
 msgid "display a list of all customized voice synthesizers profiles"
-msgstr "показать список всех настроенных профилей синтезаторов голоса"
+msgstr "показать список всех настроенных профилей синтезаторов речи"
 
 #: addon/globalPlugins/quickDictionary/__init__.py:561
 #: addon/globalPlugins/quickDictionary/settings.py:568
 msgid "delete the selected voice synthesizer profile"
-msgstr "удаление выбранного профиля речевого синтезатора"
+msgstr "удаление выбранного профиля синтезатора речи"
 
 #: addon/globalPlugins/quickDictionary/__init__.py:571
 #: addon/globalPlugins/quickDictionary/settings.py:567
@@ -225,15 +225,15 @@ msgstr "Профиль %d успешно удалён"
 
 #: addon/globalPlugins/quickDictionary/__init__.py:574
 msgid "restore default voice synthesizer"
-msgstr "восстановить синтезатор голоса по умолчанию"
+msgstr "восстановить синтезатор речи по умолчанию"
 
 #: addon/globalPlugins/quickDictionary/__init__.py:585
 msgid "back to previous voice synthesizer"
-msgstr "вернуться к предыдущему синтезатору голоса"
+msgstr "вернуться к предыдущему синтезатору речи"
 
 #: addon/globalPlugins/quickDictionary/__init__.py:597
 msgid "save configured voice synthesizer profile"
-msgstr "сохранение настроенного профиля синтезатора голоса"
+msgstr "сохранение настроенного профиля синтезатора речи"
 
 #: addon/globalPlugins/quickDictionary/__init__.py:606
 #: addon/globalPlugins/quickDictionary/settings.py:580
@@ -301,7 +301,7 @@ msgstr "время"
 
 #: addon/globalPlugins/quickDictionary/lexicala/dictionary.py:599
 msgid "homograph number"
-msgstr "колличество гомографов"
+msgstr "количество гомографов"
 
 #: addon/globalPlugins/quickDictionary/lexicala/dictionary.py:631
 msgid "semantic category"
@@ -464,7 +464,7 @@ msgstr "Выберите &онлайн-сервис:"
 
 #: addon/globalPlugins/quickDictionary/settings.py:118
 msgid "Switch between &voice synthesizers for selected languages"
-msgstr "Переключение между синтезаторами &голоса для выбранных языков"
+msgstr "Переключение между синтезаторами &речи для выбранных языков"
 
 #: addon/globalPlugins/quickDictionary/settings.py:146
 #: addon/globalPlugins/quickDictionary/settings.py:473
@@ -485,11 +485,11 @@ msgstr "Удаленный-сервис"
 
 #: addon/globalPlugins/quickDictionary/settings.py:273
 msgid "Supported languages"
-msgstr "Колличество поддерживаемых языков"
+msgstr "Количество поддерживаемых языков"
 
 #: addon/globalPlugins/quickDictionary/settings.py:334
 msgid "Changing the profile of the voice synthesizer"
-msgstr "Изменение профиля голосового синтезатора"
+msgstr "Изменение профиля синтезатора речи"
 
 #: addon/globalPlugins/quickDictionary/settings.py:339
 #, python-format
@@ -498,7 +498,7 @@ msgstr "Хотите ли Вы сохранить изменения в проф
 
 #: addon/globalPlugins/quickDictionary/settings.py:389
 msgid "Create a new voice synthesizer profile"
-msgstr "Создать новый профиль синтезатора голоса"
+msgstr "Создать новый профиль синтезатора речи"
 
 #: addon/globalPlugins/quickDictionary/settings.py:394
 msgid "Please select the &number for new profile:"
@@ -506,7 +506,7 @@ msgstr "Пожалуйста, выберите &номер для нового �
 
 #: addon/globalPlugins/quickDictionary/settings.py:457
 msgid "Select a voice synthesizer &profile from the list"
-msgstr "Выберите из списка &профиль речевого синтезатора"
+msgstr "Выберите из списка &профиль синтезатора речи"
 
 #: addon/globalPlugins/quickDictionary/settings.py:464
 msgid "Slot"
@@ -514,7 +514,7 @@ msgstr "Слот"
 
 #: addon/globalPlugins/quickDictionary/settings.py:466
 msgid "Voice synthesizer"
-msgstr "Голосовой синтезатор"
+msgstr "Синтезатор речи"
 
 #: addon/globalPlugins/quickDictionary/settings.py:468
 msgid "Associated language"
@@ -534,7 +534,7 @@ msgstr "Невозможно сохранить список профилей"
 
 #: addon/globalPlugins/quickDictionary/settings.py:582
 msgid "Saving voice synthesizers profiles list"
-msgstr "Сохранение списка профилей голосовых синтезаторов"
+msgstr "Сохранение списка профилей синтезаторов речи"
 
 #: addon/globalPlugins/quickDictionary/shared.py:117
 msgid ""
